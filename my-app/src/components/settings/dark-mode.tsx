@@ -1,5 +1,5 @@
 'use client'
-import { useThemeMode } from '@/hooks/settings/use-settings'
+import { useThemeMode } from '../../hooks/settings/use-settings'
 import React from 'react'
 import Section from '../section-label'
 import { cn } from '@/lib/utils'
