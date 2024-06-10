@@ -14,3 +14,4 @@ npm install axios
 npm install html-react-parser
 npm install pusher
 npm install pusher-js
+npm i @uploadcare/react-uploader
