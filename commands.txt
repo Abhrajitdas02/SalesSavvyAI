@@ -15,3 +15,6 @@ npm install html-react-parser
 npm install pusher
 npm install pusher-js
 npm i @uploadcare/react-uploader
+npm i nodemailer
+npm i --save-dev @types/nodemailer
+npm i openai
