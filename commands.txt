@@ -18,3 +18,4 @@ npm i @uploadcare/react-uploader
 npm i nodemailer
 npm i --save-dev @types/nodemailer
 npm i openai
+npm add @stripe/stripe-js
