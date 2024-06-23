@@ -3,7 +3,7 @@ import {
   onCreateCustomerPaymentIntentSecret,
   onGetStripeClientSecret,
   onUpdateSubscription,
-} from '@/actions/stripe'
+} from '../../actions/stripe'
 import { useToast } from '@/components/ui/use-toast'
 import axios from 'axios'
 import {

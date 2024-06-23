@@ -19,3 +19,4 @@ npm i nodemailer
 npm i --save-dev @types/nodemailer
 npm i openai
 npm add @stripe/stripe-js
+npm add @stripe/react-stripe-js
