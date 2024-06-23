@@ -73,3 +73,6 @@ export const onGetBlogPost = async (id: string) => {
     console.log(error)
   }
 }
+
+
+// landing page
