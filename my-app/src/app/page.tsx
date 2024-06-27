@@ -27,7 +27,7 @@ export default async function Home() {
         createdAt: Date
       }[]
     | undefined = await onGetBlogPosts()
-  console.log(posts)
+  // console.log(posts)
   return (
     <main>
       <NavBar />
@@ -44,7 +44,7 @@ export default async function Home() {
             className="max-w-lg object-contain"
           />
           <p className="text-center max-w-[500px]">
-            Your AI powered sales assistant! Embed Corinna AI into any website
+            Your AI powered sales assistant! Embed SalesSavy into any website
             with just a snippet of code!
           </p>
           <Button className="bg-orange font-bold text-white px-4">
