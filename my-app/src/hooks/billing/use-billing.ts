@@ -3,7 +3,7 @@ import {
   onCreateCustomerPaymentIntentSecret,
   onGetStripeClientSecret,
   onUpdateSubscription,
-} from '../../actions/stripe'
+} from '@/actions/stripe'
 import { useToast } from '@/components/ui/use-toast'
 import axios from 'axios'
 import {
@@ -14,7 +14,7 @@ import { useRouter } from 'next/navigation'
 
 export const useStripe = () => {
   const [onStripeAccountPending, setOnStripeAccountPending] =
-    useState<boolean>(false)  
+    useState<boolean>(false)
 
   const onStripeConnect = async () => {
     try {
