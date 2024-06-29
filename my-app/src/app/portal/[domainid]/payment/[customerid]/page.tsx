@@ -1,9 +1,9 @@
 import {
     onDomainCustomerResponses,
     onGetAllDomainBookings,
-  } from '@/actions/appointment'
-  import { onGetDomainProductsAndConnectedAccountId } from '@/actions/payments'
-  import PortalForm from '@/components/forms/portal/portal-form'
+  } from '../../../../../actions/appointment'
+  import { onGetDomainProductsAndConnectedAccountId } from '../../../../../actions/payments'
+  import PortalForm from '../../../../../components/forms/portal/portal-form'
   import React from 'react'
   
   const CustomerPaymentPage = async ({
