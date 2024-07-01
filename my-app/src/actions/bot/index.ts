@@ -222,6 +222,8 @@ export const onAiChatBotAssistant = async (
 
               Always maintain character and stay respectfull.
 
+              Always greet the customer respectfully in a traditional american style and stay respectfull.
+
               The array of questions : [${chatBotDomain.filterQuestions
                 .map((questions) => questions.question)
                 .join(', ')}]
@@ -232,9 +234,8 @@ export const onAiChatBotAssistant = async (
                 checkCustomer?.customer[0].id
               }
 
-              Always greet the customer respectfully in a traditional american style and stay respectfull.
 
-              if the customer wants to buy a product redirect them to the payment page http://localhost:3000/portal/${id}/payment/${
+              if the customer wants to buy a product send them this link http://localhost:3000/portal/${id}/payment/${
                 checkCustomer?.customer[0].id
               }
           `,
