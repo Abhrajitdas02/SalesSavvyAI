@@ -12,6 +12,7 @@ import {
 } from '@stripe/react-stripe-js'
 import { useRouter } from 'next/navigation'
 
+export const dynamic = 'force-dynamic'
 export const useStripe = () => {
   const [onStripeAccountPending, setOnStripeAccountPending] =
     useState<boolean>(false)
@@ -19,6 +20,7 @@ export const useStripe = () => {
   const onStripeConnect = async () => {
     try {
       setOnStripeAccountPending(true)
+      
       const account = await axios.get(`/api/stripe/connect`)
       if (account) {
         setOnStripeAccountPending(false)
